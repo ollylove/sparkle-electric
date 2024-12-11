@@ -4,7 +4,7 @@ import "./style/style.css";
 
 export const metadata = {
   title: "Sparkle Electric",
-  description: "Call us today!",
+  description: "Proudly serving our service since 1981! Call us today!",
 }
 
 export default function RootLayout({ children }) {
