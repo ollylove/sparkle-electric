@@ -1,0 +1,28 @@
+.main {
+    --background-page: #fff;
+    --primary: #ffa700;
+    --secondary: #333138;
+    --tertiary: #000;
+    --text1: black;
+    --text2: #333;
+    --text3: #696969;
+    --text4: white;
+    --subtle: #fff700;
+    --very-subtle: #f3f3f3;
+    --input: #ccc;
+    --shadow: #ddd;
+
+    &.dark-theme {
+        --background-page: #333138;
+        --secondary: white;
+        --tertiary: #333;
+        --text1: #fff;
+        --text2: #696969;
+        --text3: #999999;
+        --text4: #000;
+        --very-subtle: #333;
+        --input: #555;
+        --shadow: #666;
+    }
+}
+

@@ -1,0 +1,98 @@
+footer {
+    background: var(--very-subtle);
+
+    .footer-container {
+        max-width: 940px;
+        margin: 0 auto;
+
+        .logo-box {
+            background: var(--background-page);
+            width: 350px;
+            padding: 3rem;
+            box-shadow: -10px 10px 20px var(--shadow);
+            border-top: 5px solid var(--primary);
+            transform: translateY(-50px);
+            margin: auto;
+
+            &:before {
+                content: '';
+                border-bottom: 50px solid var(--subtle);
+                border-left: 30px solid transparent;
+                position: absolute;
+                top: -5px;
+                left: -30px;
+            }
+
+            > img {
+                margin-bottom: 3rem;
+            }
+
+            p {
+                color: var(--text3);
+                margin-bottom: 1.5rem;
+
+                &:last-of-type {
+                    margin-bottom: 0;
+                }
+
+                img {
+                    margin-right: 10px;
+                }
+            }
+        }
+
+        .about-box, .findus-box {
+            padding: 0 3rem;
+            width: 50%;
+            display: inline-block;
+            vertical-align: top;
+
+            h4 {
+                color: var(--text1);
+            }
+        }
+
+        .about-box {
+            p {
+                color: var(--text3);
+                line-height: 180%;
+                font-size: 1.5rem !important;
+            }
+        }
+
+        .findus-box {
+            a {
+                margin: 0 5px 3rem 0;
+                background: black;
+                display: inline-block;
+                text-align: center;
+                width: 30px;
+                height: 30px;
+                font-size: 0;
+                padding: 7px 0;
+                vertical-align: top;
+
+                &:hover {
+                    background: var(--primary);
+                }
+            }
+
+            p {
+                text-transform: uppercase;
+                color: var(--primary);
+                font-weight: bold;
+            }
+        }
+    }
+
+    .copy-right {
+        background: var(--primary);
+        padding: 20px;
+
+        p {
+            color: var(--text4);
+            margin: 0;
+            font-size: 1.3rem !important;
+        }
+    }
+}

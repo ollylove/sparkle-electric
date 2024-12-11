@@ -1,0 +1,192 @@
+
+@media (min-width: 768px) {
+    html {
+        font-size: 10px;
+    }
+
+    body {
+        background-image: none;
+        animation: body 1s linear forwards;
+        animation-delay: 0.5s;
+
+        @keyframes body {
+            from {background-image: none}
+            to {background-image: url('../img/bg.jpg')}
+        }
+    }
+
+    header {
+        padding: 3rem;
+
+        .logo {
+            width: 306px;
+            margin: 0 9%;
+        }
+    }
+
+    menu {
+        max-height: none;
+        height: 8rem;
+        margin-bottom: -8rem;
+        width: 70%;
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: center;
+        animation: menuslide 0.3s linear forwards;
+
+        @keyframes menuslide {
+            from {width: 0}
+            to {width: 70%}
+        }
+
+        &:before, &:after {
+            border-top-width: 8rem;
+        }
+
+        &:before {
+            left: -7.2rem;
+            border-left-width: 7.2rem;
+        }
+
+        &:after {
+            right: -7.2rem;
+            border-right-width: 7.2rem;
+        }
+
+        a {
+            line-height: 120%;
+            display: flex;
+            margin: 0 15px;
+            opacity: 0;
+            animation: opacity 0.5s linear forwards;
+            animation-delay: 1s;
+
+            &.active {
+                display: flex;
+            }
+        }
+    }
+
+    main {
+        width: 0;
+        height: 8rem;
+        margin: 0 auto;
+        animation: slide 1s ease-in forwards;
+
+        h1 {
+            opacity: 0;
+            animation: opacity 1s linear forwards;
+            animation-delay: 1s;
+        }
+
+        @keyframes slide {
+            0% {height: 8rem; width: 0}
+            25% {height: 8rem; width: 50%}
+            50% {height: 8rem; width: 100%}
+            100% {height: calc(100vh - 200px); width: 100%}
+        }
+    }
+
+    @keyframes opacity {
+        from {opacity: 0}
+        to {opacity: 1}
+    }
+
+    .about-team .about-team-wrapper, .residential .residential-wrapper, .commercial .commercial-wrapper {
+        flex-direction: row;
+        align-items: flex-start;
+        max-width: 1200px;
+
+        img {
+            margin-bottom: 0;
+            width: 40%;
+        }
+
+        div {
+            padding-left: 3rem;
+            width: 60%;
+        }
+    }
+
+    .about-meet-team div {
+        padding: 0 4rem 4rem;
+    }
+
+    .residential .residential-wrapper, .commercial-wrapper {
+        div {
+            padding-left: 0;
+            padding-right: 3rem;
+        }
+    }
+
+    .residential-capabilities, .commercial-capabilities {
+        div:last-of-type {
+            border-top: none;
+            margin-top: 0;
+            text-align: left;
+
+            h5 {
+                text-align: left;
+            }
+        }
+    }
+
+    .services .services-wrapper div {
+        width: 33%;
+        max-width: 400px;
+    }
+    
+    .services-image div {
+        width: 40%;
+        padding: 0 2rem;
+        margin: 0;
+    }
+
+    .projects-wrapper .projects {
+        flex-direction: row;
+
+        .project {
+            width: 25%;
+        }
+    }
+
+    .contacts {
+        .contacts-wrapper {
+            form {
+                display: flex;
+                justify-content: space-between;
+
+                div {
+                    width: calc(50% - 15px);
+                }
+            }
+        }
+    }
+
+    footer {
+        .footer-container {
+            display: flex;
+
+            .logo-box {
+                margin: 0;
+            }
+
+            .about-box, .findus-box {
+                padding-top: 5rem;
+                display: block;
+            }
+
+            .about-box {
+                width: auto;
+                flex-grow: 1;
+            }
+
+            .findus-box {
+                width: 20%;
+                flex-shrink: 0;
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+    }
+}

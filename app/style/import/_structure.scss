@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    transition: all 0.3s linear;
+    position: relative;
+}
+
+html, body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: var(--background-page);
+    background-image: url('../img/bg.jpg');
+    background-repeat: repeat-y;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.background-page {
+    background: var(--background-page);
+}
+
+img {
+    height: auto;
+}
