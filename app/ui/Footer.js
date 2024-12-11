@@ -39,7 +39,7 @@ export default function Footer() {
                     <h4 className={montserrat.className + ' text-left'}>About</h4>
                     <p className={montserrat.className}>
                         The Sparkle family has provided expert and trustworthy electrical services to the UK since 1981.
-                        Whether you need help with new construction, a repair, or an electrical upgrade, we'll provide with high quality work done quickly.
+                        Whether you need help with new construction, a repair, or an electrical upgrade, we&apos;ll provide with high quality work done quickly.
                     </p>
                 </div>
                 <div className="findus-box">

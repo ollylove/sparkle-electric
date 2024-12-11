@@ -28,7 +28,7 @@ export default function About() {
                         <h2 className={montserrat.className + ' text-left'}>The Generational Difference</h2>
                         <p className={montserrat.className}>
                             The Sparkle family has provided expert and trustworthy electrical services to the UK for 30+ years.
-                            As a family owned and operated business, we've been open since 1981, passing the company down through three generations.
+                            As a family owned and operated business, we&apos;ve been open since 1981, passing the company down through three generations.
                         </p>
                         <p className={montserrat.className}>
                             We are proud of our legacy and the relationship we have built with our community. We take our responsibility seriously,

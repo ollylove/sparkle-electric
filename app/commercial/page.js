@@ -26,7 +26,7 @@ export default function Commercial() {
                             highest levels of craftsmanship, value and reliability on every job.
                         </p>
                         <p className={montserrat.className}>
-                            We service what we build, and will remain your source for electrical service and maintenance far beyond your project's completion.
+                            We service what we build, and will remain your source for electrical service and maintenance far beyond your project&apos;s completion.
                         </p>
                     </div>
                     <Image src={commercial} alt="Commercial Service" />

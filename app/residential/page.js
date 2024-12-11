@@ -25,8 +25,8 @@ export default function Residentail() {
                             New home construction, remodels, additions, preventive maintenance or service upgrades, our goal is to fulfill our customers needs.
                         </p>
                         <p className={montserrat.className}>
-                            Our maintenance and repair electricians will never try to sell you services you don't need. We're confident when you call
-                            Sparkle Electric for your electrical needs, you'll be satisfied with our finished product.
+                            Our maintenance and repair electricians will never try to sell you services you don&apos;t need. We&apos;re confident when you call
+                            Sparkle Electric for your electrical needs, you&apos;ll be satisfied with our finished product.
                         </p>
                     </div>
                     <Image src={residential} alt="Residential Service" />
